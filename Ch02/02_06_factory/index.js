@@ -1,7 +1,7 @@
-var userFactory = require("./userFactory");
+const userFactory = require("./userFactory");
 
-var alex = userFactory("Alex Banks", 100);
-var eve = userFactory("Eve Porcello", 100, "employee", "This and That");
+const alex = userFactory("Alex Banks", 100);
+const eve = userFactory("Eve Porcello", 100, "employee", "This and That");
 
 eve.payDay(100);
 
